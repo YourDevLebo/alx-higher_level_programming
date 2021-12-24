@@ -1,1 +1,1 @@
-this directory is about python objects and classes
+this directory is about python objects and classes only
