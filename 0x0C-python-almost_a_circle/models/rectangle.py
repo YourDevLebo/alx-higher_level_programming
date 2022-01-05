@@ -172,4 +172,3 @@ class Rectangle(Base):
         """Dictionary with values for rectangle"""
         return {"id": self.id, "width": self.width, "height": self.height,
                 "x": self.x, "y": self.y}
-
