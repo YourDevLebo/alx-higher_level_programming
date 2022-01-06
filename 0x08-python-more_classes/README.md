@@ -12,8 +12,10 @@ str vs repr
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-General
-Why Python programming is awesome
+#General
+<hr>
+<ul>
+<li>Why Python programming is awesome
 What is OOP
 “first-class everything”
 What is a class
@@ -39,6 +41,7 @@ How to bind attributes to object and classes
 What is and what does contain __dict__ of a class and of an instance of a class
 How does Python find the attributes of an object or class
 How to use the getattr function
+</ul>
 
 #Requirements
 General
