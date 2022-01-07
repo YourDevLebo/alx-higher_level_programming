@@ -51,3 +51,4 @@ class Rectangle(object):
         for i in range(self.height - 1):
             rect += "\n" + wide
         return rect
+
