@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+""" File name : 1-rectangle.py
+    Real definition of a rectangle : class that defines a rectangle
+    It is not allowed to import any module
+"""
 class Rectangle(object):
     """ defining new Rectangle class """
     def __init__(self, width=0, height=0):
@@ -8,6 +12,7 @@ class Rectangle(object):
 
     @property
     def width(self):
+        """Property for attribute width."""
         return self.__width
 
     @width.setter
@@ -21,6 +26,7 @@ class Rectangle(object):
 
     @property
     def height(self):
+        """Property for attribute height."""
         return self.__height
 
     @height.setter
