@@ -3,6 +3,8 @@
     Real definition of a rectangle : class that defines a rectangle
     It is not allowed to import any module
 """
+
+
 class Rectangle(object):
     """ defining new Rectangle class """
     def __init__(self, width=0, height=0):
