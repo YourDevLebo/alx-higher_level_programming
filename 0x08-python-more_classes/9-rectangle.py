@@ -68,8 +68,8 @@ class Rectangle(object):
         
     @classmethod
     def square(cls, size=0):
-    	""" returns a new Rectangle instance """
-    	return cls(size, size)
+    """ returns a new Rectangle instance """
+    return cls(size, size)
 
     def __str__(self):
         """ Print the rectangle with the character # """
