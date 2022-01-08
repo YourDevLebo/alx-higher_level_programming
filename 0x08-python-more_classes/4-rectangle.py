@@ -1,4 +1,10 @@
 #!/usr/bin/python3
+""" File name : 4-rectangle.py
+    Eval is magic: print #
+    It is not allowed to import any module
+"""
+
+
 class Rectangle(object):
     """ defining new Rectangle class """
     def __init__(self, width=0, height=0):
@@ -8,6 +14,7 @@ class Rectangle(object):
 
     @property
     def width(self):
+        """Property for attribute width."""
         return self.__width
 
     @width.setter
@@ -21,6 +28,7 @@ class Rectangle(object):
 
     @property
     def height(self):
+        """Property for attribute height."""
         return self.__height
 
     @height.setter
@@ -56,4 +64,3 @@ class Rectangle(object):
     def __repr__(self):
         """ string representation of rectangle """
         return "Rectangle({}, {})".format(str(self.width), str(self.height))
-

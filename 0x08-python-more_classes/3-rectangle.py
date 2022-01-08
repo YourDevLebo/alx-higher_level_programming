@@ -1,4 +1,10 @@
 #!/usr/bin/python3
+""" File name : 3-rectangle.py
+    String representation : print #
+    It is not allowed to import any module
+"""
+
+
 class Rectangle(object):
     """ defining new Rectangle class """
     def __init__(self, width=0, height=0):
@@ -8,6 +14,7 @@ class Rectangle(object):
 
     @property
     def width(self):
+        """Property for attribute width."""
         return self.__width
 
     @width.setter
@@ -21,6 +28,7 @@ class Rectangle(object):
 
     @property
     def height(self):
+        """Property for attribute height."""
         return self.__height
 
     @height.setter
@@ -44,6 +52,7 @@ class Rectangle(object):
         return ((2 * self.__width) + (2 * self.__height))
 
     def __str__(self):
+        """ print the rectangle with the character # """
         if self.__width == 0 or self.__height == 0:
             return ""
         wide = "#" * self.width
@@ -51,4 +60,3 @@ class Rectangle(object):
         for i in range(self.height - 1):
             rect += "\n" + wide
         return rect
-
