@@ -2,6 +2,7 @@
 # a class Square that defines a square by: (based on 5-square.py)
 """Coordinates of a square: """
 
+
 class Square(object):
     """class variable size"""
     def __init__(self, size=0, position=(0, 0)):

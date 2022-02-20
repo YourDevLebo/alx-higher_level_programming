@@ -2,6 +2,7 @@
 # Write a class Square that defines a square by: (based on 3-square.py)
 """Access and update private attribute: """
 
+
 class Square(object):
     """class variable size"""
     def __init__(self, size=0):
