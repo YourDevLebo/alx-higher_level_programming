@@ -1,0 +1,22 @@
+==============================
+ how to use 3-say_my_name.py
+==============================
+
+Usage
+=====
+
+``say_my_name(...)`` prints "My name is <first_name> <last_name>".
+
+::
+
+>>> say_my_name = __import__('3-say_my_name').say_my_name
+>>> say_my_name("Lebogang", "Modise")
+My name is Lebogang Modise
+
+the parameter ```last_name``` is optional. if user doesnt provide
+last name empty string will be printed.
+
+::
+
+>>> say_my_name("Lebogang")
+My name is Lebogang
