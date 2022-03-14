@@ -6,6 +6,7 @@ from sys import argv
 
 def get__db():
     """Takes arguments argv to list from database
+
     Arguments:
         argv[1]: mysql username
         argv[2]: mysql password
