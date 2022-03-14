@@ -23,7 +23,7 @@ def filter__names():
     cur = db.cursor()
 
     # Executing db queries
-    cur.execute("SELECT * FROM states WHERE name LIKE BINARY 'N%' ORDER BY id")
+    cur.execute("SELECT * FROM states WHERE name LIKE BINARY 'N%' ORDER BY states.id ASC")
 
     # fetches all the rows of a query result
     query_rows = cur.fetchall()
