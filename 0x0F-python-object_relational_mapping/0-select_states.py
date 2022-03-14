@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """script that lists all states from the database hbtn_0e_0_usa"""
 import MySQLdb
-from sys import argv
+from sys import argv, exit
 
 
 def get__db():
@@ -12,6 +12,10 @@ def get__db():
         argv[2]: mysql password
         argv[3]: database name
     """
+    if len(argv) != 4:
+        print("Usage: {:s} <user> <passwd> <db>".format(argv[0]))
+        exit(1)
+
     db = MySQLdb.connect(host="localhost",
                          port=3306,
                          user=argv[1],
